@@ -32,10 +32,6 @@
     "dataSource": "db",
     "public": false
   },
-  "Account": {
-    "dataSource": "mysql",
-    "public": true
-  },
   "Produk": {
     "dataSource": "mongodb",
     "public": true
