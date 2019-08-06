@@ -4,16 +4,6 @@
     "connector": "memory"
   },
 
-  "mysql": {
-    "host": "localhost",
-    "port": 3306,
-    "database": "users_database",
-    "username": "root",
-    "password": "root",
-    "name": "mysql",
-    "connector":"mysql"
-  },
-
   "mongodb": {
     "host": "localhost",
     "port": 27017,
