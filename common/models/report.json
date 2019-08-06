@@ -1,0 +1,31 @@
+{
+  "name": "Report",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+
+  "properties": {
+    "reportName": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "createAt": {
+      "type": "date",
+      "defaultFn": "now"
+    }
+  },
+  "validations":[],
+  "relations":{
+    "employee": {
+    "type": "belongsTo",
+    "model": "Employee",
+    "foreignKey": "employeeId"
+    }
+  },
+  "acls": [],
+  "methods":{}
+}
