@@ -17,7 +17,7 @@
   "mongodb": {
     "host": "localhost",
     "port": 27017,
-    "database": "company",
+    "database": "tokosantuy",
     "name": "mongodb",
     "connector":"mongodb"
   }

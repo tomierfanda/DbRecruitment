@@ -36,18 +36,6 @@
     "dataSource": "mysql",
     "public": true
   },
-  "Employee": {
-    "dataSource": "mongodb",
-    "public": true
-  },
-  "Report": {
-    "dataSource": "mongodb",
-    "public": true
-  },
-  "Project": {
-    "dataSource": "mongodb",
-    "public": true
-  },
   "Produk": {
     "dataSource": "mongodb",
     "public": true
