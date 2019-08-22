@@ -7,7 +7,7 @@
   "mongodb": {
     "host": "localhost",
     "port": 27017,
-    "database": "tokosantuy",
+    "database": "DbrequitmentHRD",
     "name": "mongodb",
     "connector":"mongodb"
   }

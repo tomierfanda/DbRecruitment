@@ -1,0 +1,65 @@
+{
+  "name": "Pelamar",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "jobApplied": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "number"
+    },
+    "email": {
+      "type": "string"
+    },
+    "birthDate": {
+      "type": "date"
+    },
+    "jenisKelamin": {
+      "type": "string"
+    },
+    "agama": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "school": {
+      "type": "object"
+    },
+    "major": {
+      "type": "string"
+    },
+    "years": {
+      "type": "number"
+    },
+    "GPA": {
+      "type": "string"
+    },
+    "coreSkill": {
+      "type": "array"
+    },
+    "source": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "Interview": {
+      "type": "belongsTo",
+        "model": "interview",
+        "foreignKey": "interviewId"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

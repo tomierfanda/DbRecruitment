@@ -1,0 +1,69 @@
+{
+    "name": "Kandidat",
+    "base": "PersistedModel",
+    "idInjection": true,
+    "options": {
+      "validateUpsert": true
+    },
+    "properties": {
+      "id": {
+        "type": "string"
+      },
+      "name": {
+        "type": "string"
+      },
+      "jobApplied": {
+        "type": "string"
+      },
+      "phone": {
+        "type": "number"
+      },
+      "email": {
+        "type": "string"
+      },
+      "birthDate": {
+        "type": "date"
+      },
+      "jenisKelamin": {
+        "type": "string"
+      },
+      "agama": {
+        "type": "string"
+      },
+      "status": {
+        "type": "string"
+      },
+      "school": {
+        "type": "object"
+      },
+      "major": {
+        "type": "string"
+      },
+      "years": {
+        "type": "number"
+      },
+      "GPA": {
+        "type": "string"
+      },
+      "coreSkill": {
+        "type": "array"
+      },
+      "source": {
+        "type": "string"
+      },
+      "jadwalInterview": {
+        "type": "date"
+      }
+    },
+    "validations": [],
+    "relations": {
+        "Pelamar": {
+          "type": "belongsTo",
+            "model": "pelamar",
+            "foreignKey": "pelamarId"
+        }
+     },
+    "acls": [],
+    "methods": {}
+}
+  

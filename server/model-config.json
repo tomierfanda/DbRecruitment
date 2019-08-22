@@ -32,7 +32,19 @@
     "dataSource": "db",
     "public": false
   },
-  "Produk": {
+  "Pelamar": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "UserHRD": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "Kandidat": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "Interview": {
     "dataSource": "mongodb",
     "public": true
   }

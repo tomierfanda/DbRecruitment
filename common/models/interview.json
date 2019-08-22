@@ -1,0 +1,52 @@
+{
+    "name": "Interview",
+    "base": "PersistedModel",
+    "idInjection": true,
+    "options": {
+      "validateUpsert": true
+    },
+    "properties": {
+      "id": {
+        "type": "string"
+      },
+      "callingDate": {
+        "type": "date"
+      },
+      "callingStatus": {
+        "type": "string"
+      },
+      "interviewSchedul": {
+        "type": "date"
+      },
+      "time": {
+        "type": "date"
+      },
+      "interview1": {
+        "type": "date"
+      },
+      "interview2": {
+        "type": "date"
+      },
+      "refcheck": {
+        "type": "string"
+      },
+      "offering": {
+        "type": "string"
+      },
+      "status": {
+        "type": "string"
+      }
+    },
+    "validations": [],
+    "relations": {
+      "Pelamar": {
+        "type": "belongsTo",
+          "model": "Pelamar",
+          "foreignKey": "pelamarId",
+          "primaryKey" : "id"
+      }
+    },
+    "acls": [],
+    "methods": {}
+  }
+  
