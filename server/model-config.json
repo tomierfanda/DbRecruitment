@@ -13,9 +13,6 @@
       "./mixins"
     ]
   },
-  "User": {
-    "dataSource": "db"
-  },
   "AccessToken": {
     "dataSource": "db",
     "public": false
@@ -36,7 +33,7 @@
     "dataSource": "mongodb",
     "public": true
   },
-  "UserHRD": {
+  "User": {
     "dataSource": "mongodb",
     "public": true
   },

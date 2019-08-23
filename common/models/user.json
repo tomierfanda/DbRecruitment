@@ -1,5 +1,5 @@
 {
-    "name": "UserHRD",
+    "name": "User",
     "base": "PersistedModel",
     "idInjection": true,
     "options": {
@@ -19,6 +19,15 @@
         "type": "string"
       },
       "password": {
+        "type": "string"
+      },
+      "country": {
+        "type": "string"
+      },
+      "company": {
+        "type": "string"
+      },
+      "address": {
         "type": "string"
       }
     },
